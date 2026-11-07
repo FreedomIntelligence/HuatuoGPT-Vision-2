@@ -68,7 +68,6 @@ Explore our HuatuoGPT series:
   title={Incentivizing Medical Vision Capabilities from Large-Scale Multimodal Pre-training},
   author={Chen, Junying and Cai, Zhenyang and Yang, Yunjin and Cai, Kunyuan and Wang, Rongsheng and Wang, Xidong and Yu, Geyang and Feng, Xiangyi and Wang, Benyou},
   booktitle={The Fortieth Annual Conference on Neural Information Processing Systems},
-  year={2026},
-  url={https://openreview.net/forum?id=0BXKsjKlFJ}
+  year={2026}
 }
 ```
