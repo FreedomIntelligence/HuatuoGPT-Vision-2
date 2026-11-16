@@ -1,0 +1,3 @@
+# Prepare PyTorch, SGLang and Ray following verl's install guide first (see README.md).
+# Needs verl >= 0.9.1, tested with commit 2b4ed6826a39205838d0ca004bdd942334dbe4b6.
+-e .

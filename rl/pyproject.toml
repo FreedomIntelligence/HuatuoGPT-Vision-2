@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hv2rl"
+version = "0.1.0"
+description = "HuatuoGPT-Vision-2 RL on verl"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+dependencies = [
+  "verl>=0.9.1",  # tested with commit 2b4ed6826a39205838d0ca004bdd942334dbe4b6
+  "datasets>=3.0",
+  "hydra-core>=1.3",
+  "pillow",
+  "qwen-vl-utils",
+  "requests>=2.31",
+  "torch>=2.6",
+  "transformers>=4.57",
+]
+
+[tool.setuptools.packages.find]
+include = ["hv2rl*"]

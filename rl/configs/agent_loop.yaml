@@ -1,0 +1,2 @@
+- name: medical_single_turn
+  _target_: hv2rl.agent_loop.MedicalAgentLoop
