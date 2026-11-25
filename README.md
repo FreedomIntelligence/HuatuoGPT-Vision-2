@@ -29,15 +29,15 @@ HuatuoGPT-Vision-2 improves its Qwen3-VL backbones by about **10 points** on med
 
 ## 👨‍⚕️ Model
 
-| Model | Backbone | Access |
-| --- | --- | --- |
-| **HuatuoGPT-Vision-2-8B** | Qwen3-VL-8B-Instruct | Coming soon |
-| **HuatuoGPT-Vision-2-32B** | Qwen3-VL-32B-Instruct | Coming soon |
-| **HuatuoGPT-Vision-2-Grader** | Qwen3-VL-8B-Instruct | [Hugging Face](https://huggingface.co/FreedomIntelligence/HuatuoGPT-Vision-2-Grader) |
+| Model | Backbone | Thinking | Access |
+| --- | --- | --- | --- |
+| **HuatuoGPT-Vision-2-27B** | [Qwen3.8-27B](https://huggingface.co/Qwen/Qwen3.8-27B) | On (default) / Off | [Hugging Face](https://huggingface.co/FreedomIntelligence/HuatuoGPT-Vision-2-27B) |
+| **HuatuoGPT-Vision-2-8B** | [Qwen3-VL-8B-Instruct](https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct) | No thinking | [Hugging Face](https://huggingface.co/FreedomIntelligence/HuatuoGPT-Vision-2-8B) |
+| **HuatuoGPT-Vision-2-Grader** | [Qwen3-VL-8B-Instruct](https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct) | No thinking | [Hugging Face](https://huggingface.co/FreedomIntelligence/HuatuoGPT-Vision-2-Grader) |
 
 The grader is the multimodal rubric grader that provides rewards for open-ended questions during RL.
 
-**HuatuoGPT-Vision-2** can be used like [Qwen3-VL](https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct) and deployed with [vLLM](https://github.com/vllm-project/vllm) or [SGLang](https://github.com/sgl-project/sglang).
+Each model can be used exactly like its backbone and deployed with [vLLM](https://github.com/vllm-project/vllm) or [SGLang](https://github.com/sgl-project/sglang). HuatuoGPT-Vision-2-27B thinks by default. Set `enable_thinking=False` in the chat template to get a direct answer. See each model card for usage examples.
 
 ## 📚 Data
 
