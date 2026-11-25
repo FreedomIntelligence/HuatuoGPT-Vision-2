@@ -25,7 +25,7 @@ HuatuoGPT-Vision-2 is built on a simple recipe: **scale medical multimodal pre-t
 
 <p align="center"><img src="assets/figure_stage2.png" width="95%" alt="Stage 2: Incentivizing medical vision capabilities"></p>
 
-HuatuoGPT-Vision-2 improves its Qwen3-VL backbones by about **10 points** on medical benchmarks. The 32B model outperforms open-source and medical VLMs of similar size.
+In the paper, HuatuoGPT-Vision-2 improves its Qwen3-VL backbones by about **10 points** on medical benchmarks, and the 32B model outperforms open-source and medical VLMs of similar size.
 
 ## 👨‍⚕️ Model
 
